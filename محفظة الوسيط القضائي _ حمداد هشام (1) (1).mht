@@ -1,0 +1,1176 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://localhost:8158/Index.html
+Subject: =?utf-8?Q?=D9=85=D8=AD=D9=81=D8=B8=D8=A9=20=D8=A7=D9=84=D9=88=D8=B3=D9=8A?=
+ =?utf-8?Q?=D8=B7=20=D8=A7=D9=84=D9=82=D8=B6=D8=A7=D8=A6=D9=8A=20|=20=D8?=
+ =?utf-8?Q?=AD=D9=85=D8=AF=D8=A7=D8=AF=20=D9=87=D8=B4=D8=A7=D9=85?=
+Date: Tue, 29 Sep 2026 13:09:31 GMT
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--uUhErqDam6vjcKzIagSQU9FOujtY17c5U5QVYSVNOO----"
+
+
+------MultipartBoundary--uUhErqDam6vjcKzIagSQU9FOujtY17c5U5QVYSVNOO----
+Content-Type: text/html
+Content-ID: <frame-A4B10CE3BAA5BC8571E452341EC45064@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: http://localhost:8158/Index.html
+
+<html lang="ar" dir="rtl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-c4ee7a2d-5662-4615-9025-031c36ac79f9@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-ff0a4c06-cf7c-45dc-801f-c356e6893619@mhtml.blink" /><!-- Injected code, this is not present in original code --><meta name="viewport" content="width=device-width, initial-scale=1.0, interactive-widget=resizes-content">
+    
+    
+    <!-- Injected code, this is not present in original code --><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>محفظة الوسيط القضائي | حمداد هشام</title></head><c-toggler style="transform: translate(2px, 364px); display: none;"></c-toggler>
+
+
+
+
+
+
+
+
+
+<body>
+
+<!-- =========================================================
+     LOGIN
+========================================================= -->
+
+<section class="login" id="loginPage">
+
+  <div class="login-card">
+
+    <div class="logo">⚖</div>
+
+    <h1>محفظة الوسيط القضائي</h1>
+
+    <div class="subtitle">
+      حمداد هشام
+    </div>
+
+    <div class="field">
+      <label>نوع المستخدم</label>
+      <select id="role">
+        <option value="mediator">الوسيط القضائي</option>
+        <option value="judge">القاضي المعيّن</option>
+      </select>
+    </div>
+
+    <div class="field">
+      <label>اسم المستخدم</label>
+      <input id="username" placeholder="أدخل اسم المستخدم">
+    </div>
+
+    <div class="field">
+      <label>كلمة المرور</label>
+      <input id="password" type="password" placeholder="أدخل كلمة المرور">
+    </div>
+
+    <button class="btn primary full">
+      🔐 دخول إلى المحفظة
+    </button>
+
+    <div class="demo-box">
+      <b>نموذج عرض تجريبي</b><br>
+      بيانات الدخول للوسيط:
+      <b>mediator</b> / <b>1234</b><br>
+      بيانات الدخول للقاضي:
+      <b>judge</b> / <b>1234</b><br>
+      <span>
+        جميع البيانات المعروضة تجريبية وليست بيانات قضائية حقيقية.
+      </span>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =========================================================
+     APPLICATION
+========================================================= -->
+
+<div class="app hidden" id="app">
+
+  <aside class="sidebar" id="sidebar">
+
+    <div class="brand">
+
+      <div class="brand-logo">⚖</div>
+
+      <h2>محفظة الوسيط القضائي</h2>
+
+      <small>حمداد هشام</small>
+
+    </div>
+
+    <nav class="nav">
+
+      <button class="active">
+        🏠 لوحة التحكم
+      </button>
+
+      <button>
+        📁 ملف القضايا
+      </button>
+
+      <button id="addMenu">
+        ➕ إضافة قضية
+      </button>
+
+      <button>
+        📄 الوثائق
+      </button>
+
+      <button>
+        🔔 الإشعارات
+      </button>
+
+      <button>
+        👤 الملف الشخصي
+      </button>
+
+      <div class="separator"></div>
+
+      <button>
+        ℹ️ حول المشروع
+      </button>
+
+      <button>
+        🚪 تسجيل الخروج
+      </button>
+
+    </nav>
+
+  </aside>
+
+
+  <main class="main">
+
+    <header class="topbar">
+
+      <button class="mobile-btn">
+        ☰
+      </button>
+
+      <div class="top-title" id="topTitle">
+        لوحة تحكم الوسيط القضائي
+      </div>
+
+      <div class="user">
+
+        <div>
+          <strong id="userName">
+            حمداد هشام
+          </strong><br>
+
+          <small id="userRole">
+            وسيط قضائي
+          </small>
+        </div>
+
+        <div class="avatar">ح</div>
+
+      </div>
+
+    </header>
+
+
+    <section class="content">
+
+
+      <!-- ================= DASHBOARD ================= -->
+
+      <div class="page active" id="dashboard">
+
+        <div class="page-title">
+
+          <h1>لوحة التحكم</h1>
+
+          <p id="welcome">
+            مرحبًا بك في محفظة الوسيط القضائي.
+          </p>
+
+        </div>
+
+
+        <div class="stats">
+
+          <div class="stat">
+            <div class="stat-icon">📁</div>
+            <strong id="statTotal">3</strong>
+            <span>إجمالي القضايا</span>
+          </div>
+
+          <div class="stat">
+            <div class="stat-icon">⏳</div>
+            <strong id="statRunning">1</strong>
+            <span>قضايا قيد الوساطة</span>
+          </div>
+
+          <div class="stat">
+            <div class="stat-icon">🤝</div>
+            <strong id="statAgreement">1</strong>
+            <span>اتفاقات ناجحة</span>
+          </div>
+
+          <div class="stat">
+            <div class="stat-icon">🔒</div>
+            <strong id="statClosed">0</strong>
+            <span>ملفات مغلقة</span>
+          </div>
+
+        </div>
+
+
+        <div class="panel">
+
+          <div class="panel-head">
+
+            <h2>آخر القضايا</h2>
+
+            <button class="btn light">
+              عرض جميع القضايا
+            </button>
+
+          </div>
+
+          <div class="table-scroll">
+
+            <table>
+
+              <thead>
+                <tr>
+                  <th>رقم القضية</th>
+                  <th>المحكمة</th>
+                  <th>القاضي</th>
+                  <th>الموضوع</th>
+                  <th>الحالة</th>
+                  <th></th>
+                </tr>
+              </thead>
+
+              <tbody id="recent">
+
+      <tr>
+
+        <td>2026/00142</td>
+
+        <td>محكمة ورقلة</td>
+
+        <td>الأستاذ عبد القادر م.</td>
+
+        <td>نزاع عقاري</td>
+
+        <td><span class="badge pending">
+    في الانتظار
+  </span></td>
+
+        <td>
+          <button class="btn light">
+            عرض
+          </button>
+        </td>
+
+      </tr>
+
+    
+
+      <tr>
+
+        <td>2026/00131</td>
+
+        <td>محكمة الأغواط</td>
+
+        <td>الأستاذة فاطمة ز.</td>
+
+        <td>نزاع تجاري</td>
+
+        <td><span class="badge agreement">
+    تم الاتفاق
+  </span></td>
+
+        <td>
+          <button class="btn light">
+            عرض
+          </button>
+        </td>
+
+      </tr>
+
+    
+
+      <tr>
+
+        <td>2026/00125</td>
+
+        <td>محكمة ورقلة</td>
+
+        <td>الأستاذ محمد أحمد</td>
+
+        <td>نزاع مدني حول تنفيذ التزام</td>
+
+        <td><span class="badge running">
+    قيد الوساطة
+  </span></td>
+
+        <td>
+          <button class="btn light">
+            عرض
+          </button>
+        </td>
+
+      </tr>
+
+    </tbody>
+
+            </table>
+
+          </div>
+
+        </div>
+
+
+        <div class="panel">
+
+          <div class="panel-head">
+
+            <h2>مراحل العمل المقترحة</h2>
+
+          </div>
+
+          <div class="timeline">
+
+            <div class="timeline-item">
+              <strong>إسناد القضية</strong>
+              <small>تسجيل القضية والقاضي المعيّن.</small>
+            </div>
+
+            <div class="timeline-item">
+              <strong>دعوة الأطراف</strong>
+              <small>تنظيم التواصل والمواعيد.</small>
+            </div>
+
+            <div class="timeline-item">
+              <strong>جلسات الوساطة</strong>
+              <small>تسجيل مراحل وملاحظات الوساطة.</small>
+            </div>
+
+            <div class="timeline-item">
+              <strong>النتيجة</strong>
+              <small>اتفاق أو عدم اتفاق وإعداد المحضر.</small>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- ================= CASES ================= -->
+
+      <div class="page" id="cases">
+
+        <div class="page-title">
+
+          <h1>ملف القضايا</h1>
+
+          <p>
+            إدارة ومتابعة الملفات المسجلة في النموذج التجريبي.
+          </p>
+
+        </div>
+
+        <div class="panel">
+
+          <div class="toolbar">
+
+            <input class="search" id="search" placeholder="🔎 البحث برقم القضية، المحكمة، القاضي أو الأطراف...">
+
+            <select id="filterStatus" class="search">
+
+              <option value="">كل الحالات</option>
+              <option value="running">قيد الوساطة</option>
+              <option value="agreement">تم الاتفاق</option>
+              <option value="failed">لم يتم الاتفاق</option>
+              <option value="closed">مغلقة</option>
+
+            </select>
+
+            <button id="newCase" class="btn secondary">
+              + إضافة قضية
+            </button>
+
+          </div>
+
+
+          <div class="table-scroll">
+
+            <table>
+
+              <thead>
+
+                <tr>
+                  <th>رقم القضية</th>
+                  <th>المحكمة</th>
+                  <th>القاضي</th>
+                  <th>الأطراف</th>
+                  <th>التاريخ</th>
+                  <th>الحالة</th>
+                  <th>إجراء</th>
+                </tr>
+
+              </thead>
+
+              <tbody id="caseTable"></tbody>
+
+            </table>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- ================= DOCUMENTS ================= -->
+
+      <div class="page" id="documents">
+
+        <div class="page-title">
+
+          <h1>مركز الوثائق</h1>
+
+          <p>
+            نموذج تجريبي لتنظيم الوثائق المرتبطة بملفات الوساطة.
+          </p>
+
+        </div>
+
+        <div class="panel">
+
+          <div class="panel-head">
+
+            <h2>الوثائق التجريبية</h2>
+
+            <button class="btn secondary">
+              + إضافة وثيقة
+            </button>
+
+          </div>
+
+          <div id="documentsList">
+
+            <div class="document">
+
+              <div class="document-info">
+
+                <div class="doc-icon">📄</div>
+
+                <div>
+                  <strong>قرار تعيين الوسيط.pdf</strong>
+                  <small>القضية 2026/00125</small>
+                </div>
+
+              </div>
+
+              <button class="btn light">
+                عرض
+              </button>
+
+            </div>
+
+
+            <div class="document">
+
+              <div class="document-info">
+
+                <div class="doc-icon">📋</div>
+
+                <div>
+                  <strong>محضر الجلسة الأولى.pdf</strong>
+                  <small>القضية 2026/00125</small>
+                </div>
+
+              </div>
+
+              <button class="btn light">
+                عرض
+              </button>
+
+            </div>
+
+
+            <div class="document">
+
+              <div class="document-info">
+
+                <div class="doc-icon">🤝</div>
+
+                <div>
+                  <strong>محضر اتفاق تجريبي.pdf</strong>
+                  <small>القضية 2026/00131</small>
+                </div>
+
+              </div>
+
+              <button class="btn light">
+                عرض
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- ================= NOTIFICATIONS ================= -->
+
+      <div class="page" id="notifications">
+
+        <div class="page-title">
+
+          <h1>الإشعارات</h1>
+
+          <p>
+            مركز التنبيهات والمتابعة.
+          </p>
+
+        </div>
+
+        <div class="panel">
+
+          <div class="notice">
+            🔔 تم تسجيل قضية جديدة في المحفظة.
+            <small>اليوم – نموذج تجريبي</small>
+          </div>
+
+          <div class="notice">
+            📅 يوجد موعد وساطة قريب.
+            <small>غدًا – نموذج تجريبي</small>
+          </div>
+
+          <div class="notice">
+            📄 تم إرفاق محضر بالقضية 2026/00131.
+            <small>منذ يومين – نموذج تجريبي</small>
+          </div>
+
+          <div class="notice">
+            ⚖️ القاضي المعيّن يمكنه الاطلاع على الملف المرتبط به.
+            <small>إشعار توضيحي</small>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- ================= PROFILE ================= -->
+
+      <div class="page" id="profile">
+
+        <div class="page-title">
+
+          <h1>الملف الشخصي</h1>
+
+          <p>بيانات الحساب التجريبي.</p>
+
+        </div>
+
+        <div class="panel">
+
+          <div class="details-grid">
+
+            <div class="detail">
+              <small>الاسم الكامل</small>
+              حمداد هشام
+            </div>
+
+            <div class="detail">
+              <small>الصفة</small>
+              وسيط قضائي
+            </div>
+
+            <div class="detail">
+              <small>رقم التسجيل</small>
+              DEMO-2026-001
+            </div>
+
+            <div class="detail">
+              <small>حالة الحساب</small>
+              <span class="badge agreement">نشط</span>
+            </div>
+
+            <div class="detail">
+              <small>البريد الإلكتروني</small>
+              demo@mediation.local
+            </div>
+
+            <div class="detail">
+              <small>نوع النظام</small>
+              نموذج أولي تجريبي
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- ================= ABOUT ================= -->
+
+      <div class="page" id="about">
+
+        <div class="hero">
+
+          <h2>محفظة الوسيط القضائي</h2>
+
+          <p>
+            مشروع رقمي مقترح يهدف إلى تنظيم عمل الوسيط القضائي
+            من خلال إنشاء محفظة إلكترونية موحدة للقضايا المسندة
+            إليه، مع توفير إمكانية متابعة مراحل الوساطة،
+            تنظيم الوثائق والمحاضر، وتسهيل الاطلاع على الملفات
+            من طرف القاضي المعيّن وفق الصلاحيات المحددة.
+          </p>
+
+          <p>
+            هذه الصفحة جزء من نموذج أولي تجريبي مقدم لغرض
+            عرض الفكرة والتصور الوظيفي للمشروع.
+          </p>
+
+        </div>
+
+
+        <div class="features">
+
+          <div class="feature">
+            <div class="feature-icon">📁</div>
+            <h3>إدارة القضايا</h3>
+            <p>
+              إنشاء ملف إلكتروني لكل قضية ومتابعة حالتها ومراحلها.
+            </p>
+          </div>
+
+          <div class="feature">
+            <div class="feature-icon">⚖️</div>
+            <h3>صلاحيات القاضي</h3>
+            <p>
+              تصور لنظام يسمح للقاضي المعيّن بالاطلاع على الملفات
+              المرتبطة بتعيينه.
+            </p>
+          </div>
+
+          <div class="feature">
+            <div class="feature-icon">📄</div>
+            <h3>إدارة الوثائق</h3>
+            <p>
+              تنظيم قرارات التعيين والمحاضر والوثائق المرتبطة بالقضية.
+            </p>
+          </div>
+
+          <div class="feature">
+            <div class="feature-icon">🔔</div>
+            <h3>الإشعارات</h3>
+            <p>
+              تنبيهات حول المواعيد والآجال والتحديثات المهمة.
+            </p>
+          </div>
+
+          <div class="feature">
+            <div class="feature-icon">🔐</div>
+            <h3>الصلاحيات والأمان</h3>
+            <p>
+              في النسخة المستقبلية يتم تطبيق مصادقة وتشفير وسجل
+              عمليات وقاعدة بيانات مركزية.
+            </p>
+          </div>
+
+          <div class="feature">
+            <div class="feature-icon">📊</div>
+            <h3>الإحصائيات</h3>
+            <p>
+              لوحة تحكم تساعد على متابعة عدد القضايا وحالاتها
+              ومراحل الوساطة.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+</div>
+
+
+<!-- =========================================================
+     CASE MODAL
+========================================================= -->
+
+<div class="modal" id="caseModal">
+
+  <div class="modal-box">
+
+    <div class="modal-head">
+
+      <h2 id="modalTitle">إضافة قضية جديدة</h2>
+
+      <button class="close">
+        ×
+      </button>
+
+    </div>
+
+    <form id="caseForm">
+
+      
+
+      <div class="form-grid">
+
+        <div class="field">
+          <label>رقم القضية *</label>
+          <input id="caseNumber" required="">
+        </div>
+
+        <div class="field">
+          <label>المحكمة *</label>
+          <input id="court" required="">
+        </div>
+
+        <div class="field">
+          <label>القسم</label>
+          <input id="department">
+        </div>
+
+        <div class="field">
+          <label>القاضي المعيّن *</label>
+          <input id="judge" required="">
+        </div>
+
+        <div class="field">
+          <label>المدعي</label>
+          <input id="plaintiff">
+        </div>
+
+        <div class="field">
+          <label>المدعى عليه</label>
+          <input id="defendant">
+        </div>
+
+        <div class="field">
+          <label>تاريخ التعيين</label>
+          <input id="date" type="date">
+        </div>
+
+        <div class="field">
+          <label>أجل الوساطة</label>
+          <input id="deadline" type="date">
+        </div>
+
+        <div class="field">
+          <label>الحالة</label>
+          <select id="status">
+            <option value="running">قيد الوساطة</option>
+            <option value="agreement">تم الاتفاق</option>
+            <option value="failed">لم يتم الاتفاق</option>
+            <option value="closed">مغلقة</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label>موضوع النزاع</label>
+          <input id="subject">
+        </div>
+
+        <div class="field full-col">
+          <label>ملاحظات الوسيط</label>
+          <textarea id="notes" rows="5"></textarea>
+        </div>
+
+      </div>
+
+      <div class="actions">
+
+        <button class="btn primary" type="submit">
+          💾 حفظ القضية
+        </button>
+
+        <button class="btn light" type="button">
+          إلغاء
+        </button>
+
+      </div>
+
+    </form>
+
+  </div>
+
+</div>
+
+
+<!-- =========================================================
+     DETAILS MODAL
+========================================================= -->
+
+<div class="modal" id="detailsModal">
+
+  <div class="modal-box">
+
+    <div class="modal-head">
+
+      <h2>ملف القضية</h2>
+
+      <button class="close">
+        ×
+      </button>
+
+    </div>
+
+    <div id="details"></div>
+
+  </div>
+
+</div>
+
+
+
+
+
+</body></html>
+------MultipartBoundary--uUhErqDam6vjcKzIagSQU9FOujtY17c5U5QVYSVNOO----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-ff0a4c06-cf7c-45dc-801f-c356e6893619@mhtml.blink
+
+@charset "utf-8";
+
+:root { --navy: #0b2942; --blue: #126782; --blue2: #1c86a5; --gold: #c9a64e; --bg: #f4f7f9; --card: #fff; --text: #172b36; --muted: #72828c; --border: #dce5ea; --green: #11845b; --orange: #c87818; --red: #b83232; --shadow: 0 10px 30px rgba(11,41,66,.09); }
+
+* { box-sizing: border-box; }
+
+body { margin: 0px; background: var(--bg); color: var(--text); font-family: Tahoma, Arial, sans-serif; }
+
+button, input, select, textarea { font: inherit; }
+
+button { cursor: pointer; }
+
+.hidden { display: none !important; }
+
+.login { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 25px; background: radial-gradient(circle at 15% 20%, rgba(201, 166, 78, 0.18), transparent 30%), linear-gradient(135deg, rgb(7, 29, 46), rgb(13, 70, 96)); }
+
+.login-card { width: 100%; max-width: 470px; background: rgb(255, 255, 255); border-radius: 24px; padding: 38px; box-shadow: rgba(0, 0, 0, 0.28) 0px 25px 70px; }
+
+.logo { width: 90px; height: 90px; margin: auto; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: var(--navy); color: rgb(255, 255, 255); font-size: 43px; border: 4px solid var(--gold); }
+
+.login-card h1 { text-align: center; color: var(--navy); margin: 20px 0px 5px; font-size: 25px; }
+
+.login-card .subtitle { text-align: center; color: var(--muted); margin-bottom: 25px; }
+
+.field { margin-bottom: 16px; }
+
+.field label { display: block; margin-bottom: 7px; font-weight: bold; color: rgb(48, 67, 78); }
+
+.field input, .field select, .field textarea { width: 100%; padding: 12px 13px; border: 1px solid var(--border); border-radius: 10px; background: rgb(255, 255, 255); outline: none; }
+
+.field input:focus, .field select:focus, .field textarea:focus { border-color: var(--blue2); box-shadow: rgba(28, 134, 165, 0.12) 0px 0px 0px 3px; }
+
+.demo-box { margin-top: 18px; padding: 13px; border-radius: 12px; background: rgb(241, 247, 249); font-size: 12px; line-height: 1.9; }
+
+.btn { border: 0px; border-radius: 10px; padding: 11px 16px; transition: 0.2s; }
+
+.btn:hover { transform: translateY(-1px); }
+
+.primary { background: var(--navy); color: rgb(255, 255, 255); }
+
+.secondary { background: var(--blue); color: rgb(255, 255, 255); }
+
+.light { background: rgb(237, 242, 245); color: var(--text); }
+
+.danger { background: var(--red); color: rgb(255, 255, 255); }
+
+.success { background: var(--green); color: rgb(255, 255, 255); }
+
+.full { width: 100%; }
+
+.app { min-height: 100vh; }
+
+.sidebar { position: fixed; right: 0px; top: 0px; bottom: 0px; width: 275px; background: linear-gradient(rgb(9, 43, 68), rgb(13, 64, 87)); color: rgb(255, 255, 255); z-index: 50; overflow-y: auto; }
+
+.brand { text-align: center; padding: 25px 18px 20px; border-bottom: 1px solid rgba(255, 255, 255, 0.12); }
+
+.brand-logo { width: 65px; height: 65px; margin: auto; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: rgb(255, 255, 255); color: var(--navy); font-size: 30px; border: 3px solid var(--gold); }
+
+.brand h2 { font-size: 17px; margin: 12px 0px 4px; }
+
+.brand small { color: rgb(191, 208, 216); }
+
+.nav { padding: 15px; }
+
+.nav button { display: block; width: 100%; border: 0px; color: rgb(220, 232, 237); background: transparent; text-align: right; padding: 13px 15px; border-radius: 10px; margin-bottom: 5px; }
+
+.nav button:hover, .nav button.active { background: rgba(255, 255, 255, 0.12); color: rgb(255, 255, 255); }
+
+.nav .separator { height: 1px; background: rgba(255, 255, 255, 0.1); margin: 14px 5px; }
+
+.main { margin-right: 275px; }
+
+.topbar { height: 75px; background: rgb(255, 255, 255); border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; padding: 0px 30px; position: sticky; top: 0px; z-index: 30; }
+
+.top-title { font-weight: bold; color: var(--navy); }
+
+.user { display: flex; align-items: center; gap: 10px; }
+
+.avatar { width: 42px; height: 42px; border-radius: 50%; display: flex; justify-content: center; align-items: center; background: var(--navy); color: rgb(255, 255, 255); font-weight: bold; }
+
+.content { padding: 30px; }
+
+.page { display: none; }
+
+.page.active { display: block; }
+
+.page-title { margin-bottom: 25px; }
+
+.page-title h1 { color: var(--navy); margin: 0px 0px 7px; font-size: 27px; }
+
+.page-title p { margin: 0px; color: var(--muted); }
+
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 17px; margin-bottom: 22px; }
+
+.stat { background: rgb(255, 255, 255); border-radius: 15px; padding: 20px; box-shadow: var(--shadow); border-right: 4px solid var(--blue); }
+
+.stat-icon { font-size: 25px; }
+
+.stat strong { display: block; font-size: 29px; color: var(--navy); margin: 8px 0px 3px; }
+
+.stat span { color: var(--muted); font-size: 13px; }
+
+.panel { background: rgb(255, 255, 255); border-radius: 16px; box-shadow: var(--shadow); padding: 22px; margin-bottom: 22px; }
+
+.panel-head { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 18px; }
+
+.panel-head h2 { margin: 0px; font-size: 19px; color: var(--navy); }
+
+.table-scroll { overflow-x: auto; }
+
+table { width: 100%; border-collapse: collapse; min-width: 850px; }
+
+th, td { padding: 13px; border-bottom: 1px solid var(--border); text-align: right; }
+
+th { background: rgb(244, 247, 249); color: var(--navy); font-size: 13px; }
+
+td { font-size: 13px; }
+
+tr:hover td { background: rgb(251, 253, 254); }
+
+.badge { display: inline-block; border-radius: 30px; padding: 5px 10px; font-size: 11px; font-weight: bold; }
+
+.running { background: rgb(229, 245, 238); color: rgb(8, 115, 77); }
+
+.agreement { background: rgb(229, 240, 250); color: rgb(23, 92, 138); }
+
+.failed { background: rgb(253, 234, 234); color: rgb(161, 38, 38); }
+
+.closed { background: rgb(237, 240, 242); color: rgb(93, 107, 115); }
+
+.pending { background: rgb(255, 242, 220); color: rgb(154, 91, 10); }
+
+.toolbar { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 18px; }
+
+.search { flex: 1 1 0%; min-width: 220px; border: 1px solid var(--border); border-radius: 10px; padding: 11px; }
+
+.form-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; }
+
+.full-col { grid-column: 1 / -1; }
+
+.actions { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.details-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+
+.detail { background: rgb(246, 248, 250); padding: 14px; border-radius: 10px; }
+
+.detail small { display: block; color: var(--muted); margin-bottom: 4px; }
+
+.timeline { border-right: 3px solid var(--blue); padding-right: 20px; }
+
+.timeline-item { position: relative; margin-bottom: 22px; }
+
+.timeline-item::before { content: ""; position: absolute; right: -27px; top: 4px; width: 11px; height: 11px; border-radius: 50%; background: var(--blue); }
+
+.timeline-item strong { color: var(--navy); }
+
+.timeline-item small { display: block; color: var(--muted); margin-top: 4px; }
+
+.document { display: flex; justify-content: space-between; align-items: center; padding: 14px; border: 1px solid var(--border); border-radius: 11px; margin-bottom: 9px; }
+
+.document-info { display: flex; gap: 10px; align-items: center; }
+
+.doc-icon { width: 38px; height: 38px; border-radius: 9px; background: rgb(237, 245, 248); display: flex; align-items: center; justify-content: center; }
+
+.modal { position: fixed; inset: 0px; background: rgba(0, 0, 0, 0.58); display: none; justify-content: center; align-items: center; padding: 20px; z-index: 100; }
+
+.modal.show { display: flex; }
+
+.modal-box { background: rgb(255, 255, 255); width: 100%; max-width: 900px; max-height: 92vh; overflow: auto; border-radius: 18px; padding: 25px; }
+
+.modal-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+
+.close { width: 38px; height: 38px; border: 0px; border-radius: 50%; background: rgb(238, 242, 244); font-size: 21px; }
+
+.hero { background: linear-gradient(120deg, rgba(9, 43, 68, 0.96), rgba(18, 103, 130, 0.94)); color: rgb(255, 255, 255); border-radius: 18px; padding: 35px; margin-bottom: 22px; }
+
+.hero h2 { margin-top: 0px; font-size: 27px; }
+
+.hero p { line-height: 2; color: rgb(217, 232, 238); max-width: 850px; }
+
+.features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+
+.feature { background: rgb(255, 255, 255); padding: 20px; border-radius: 14px; box-shadow: var(--shadow); }
+
+.feature-icon { font-size: 28px; }
+
+.feature h3 { color: var(--navy); }
+
+.notice { padding: 15px; border-bottom: 1px solid var(--border); }
+
+.notice:last-child { border: 0px; }
+
+.notice small { display: block; color: var(--muted); margin-top: 5px; }
+
+.mobile-btn { display: none; border: 0px; border-radius: 8px; background: var(--navy); color: rgb(255, 255, 255); padding: 8px 11px; }
+
+@media (max-width: 1050px) {
+  .stats { grid-template-columns: repeat(2, 1fr); }
+  .features { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 750px) {
+  .sidebar { transform: translateX(100%); transition: 0.25s; }
+  .sidebar.open { transform: translateX(0px); }
+  .main { margin-right: 0px; }
+  .mobile-btn { display: block; }
+  .topbar { padding: 0px 15px; }
+  .content { padding: 18px; }
+  .stats { grid-template-columns: 1fr; }
+  .form-grid, .details-grid, .features { grid-template-columns: 1fr; }
+  .login-card { padding: 25px; }
+}
+------MultipartBoundary--uUhErqDam6vjcKzIagSQU9FOujtY17c5U5QVYSVNOO----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-c4ee7a2d-5662-4615-9025-031c36ac79f9@mhtml.blink
+
+@charset "utf-8";
+
+﻿html[console-only], html[console-only] body { width: 100%; height: 100%; margin: 0px; overflow: hidden; background: var(--primary-color, #313131) !important; }
+
+c-console { --console-background: #313131; --console-background-text: #eee; --console-surface: #313131; --console-surface-text: #eee; --console-control: #414141; --console-control-text: #d6d3d3; --console-active: #555; --console-active-text: #fff; --console-border: rgba(204, 204, 204, 0.35); --console-muted: #aaa; --console-placeholder: #929292; --console-scrollbar: #666; --console-danger: #ff9b9b; --console-danger-fill: #a00000; --console-warning-fill: #ffb95c; --console-error-surface: #422; --console-warning-surface: #633; --console-link: #99f; --console-accent: rgb(120, 105, 225); --console-function: rgb(145, 136, 168); --console-success: rgb(59, 161, 59); box-sizing: border-box; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; position: fixed; top: var(--console-viewport-top, 0); left: var(--console-viewport-left, 0); width: var(--console-viewport-width, 100vw); height: var(--console-viewport-height, 100dvh); min-height: 0px; overflow: hidden; z-index: 99998; background: var(--console-background); color: var(--console-background-text); font-family: var(--app-font-family, Verdana, Geneva, Tahoma, sans-serif); color-scheme: dark; }
+
+html[console-only] c-console { --console-background: var(--primary-color, #313131); --console-background-text: var(--primary-text-color, #eee); --console-surface: var(--secondary-color, var(--primary-color, #313131)); --console-surface-text: var( --secondary-text-color, var(--primary-text-color, #eee) ); --console-control: var( --popup-background-color, var(--secondary-color, #414141) ); --console-control-text: var( --popup-text-color, var(--secondary-text-color, #d6d3d3) ); --console-active: var(--active-color, #555); --console-active-text: var(--active-text-color, #fff); --console-border: var(--border-color, rgba(204, 204, 204, 0.35)); --console-muted: var(--secondary-text-color, #aaa); --console-placeholder: var(--secondary-text-color, #929292); --console-scrollbar: var(--scrollbar-color, #666); --console-danger: var(--error-text-color, #ff9b9b); --console-danger-fill: var(--danger-color, #a00000); --console-warning-fill: var(--error-text-color, #ffb95c); --console-link: var(--link-text-color, #99f); --console-accent: var(--active-color, rgb(120, 105, 225)); --console-function: var(--secondary-text-color, rgb(145, 136, 168)); --console-success: var(--success-text-color, rgb(59, 161, 59)); }
+
+html[theme-type="light"] c-console { color-scheme: light; }
+
+c-console[standalone] { position: absolute; inset: 0px; width: auto; height: auto; }
+
+.__c-action { min-height: 32px; padding: 5px 8px; border: 0px; border-radius: 3px; background: rgba(0, 0, 0, 0); color: var(--console-surface-text); font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; font-size: 0.76rem; touch-action: manipulation; }
+
+.__c-action:active { background: var(--console-active); color: var(--console-active-text); }
+
+.__c-action-danger { color: var(--console-danger); }
+
+.__c-context { box-sizing: border-box; max-width: 112px; min-height: 32px; padding: 4px 20px 4px 6px; border: 0px; border-radius: 3px; outline: none; background: var(--console-control); color: var(--console-control-text); font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; font-size: 0.7rem; }
+
+.__c-context:focus-visible { outline: 1px solid var(--console-active); outline-offset: -1px; }
+
+.__c-context:disabled { opacity: 0.55; }
+
+c-output { display: block; -webkit-box-flex: 1; flex: 1 1 100%; min-height: 0px; overflow: auto; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: var(--console-scrollbar) rgba(0,0,0,0); }
+
+c-output > .variable-virtual-spacer, c-output > .variable-virtual-items { display: block; width: 100%; }
+
+c-input { box-sizing: border-box; display: flex; -webkit-box-align: end; align-items: flex-end; gap: 6px; width: 100%; min-height: 96px; padding: 7px 7px max(8px,env(safe-area-inset-bottom)); background: var(--console-surface); color: var(--console-surface-text); }
+
+c-input::before { content: ">>"; align-self: flex-start; padding-top: 9px; color: var(--console-accent); font: italic 13px / 1 "Courier New", Courier, monospace; }
+
+#__c-input { box-sizing: border-box; display: block; -webkit-box-flex: 1; flex: 1 1 auto; width: 100%; min-width: 0px; min-height: 82px; max-height: 120px; margin: 0px; padding: 7px 3px; border: 0px; outline: none; resize: none; overflow-y: auto; background: rgba(0, 0, 0, 0); color: var(--console-surface-text); font: 13px / 1.45 "Courier New", Courier, monospace; caret-color: currentcolor !important; }
+
+c-input-actions { display: flex; -webkit-box-flex: 0; flex: 0 0 auto; -webkit-box-align: center; align-items: center; gap: 2px; padding-bottom: 2px; }
+
+#__c-input::-webkit-input-placeholder { color: var(--console-placeholder); opacity: 0.75; }
+
+#__c-input::placeholder { color: var(--console-placeholder); opacity: 0.75; }
+
+#__c-input:disabled { opacity: 0.55; }
+
+c-message { box-sizing: border-box; display: flex; position: relative; flex-wrap: wrap; min-height: 45px; padding: 5px 7px 4px; border-bottom: 1px solid var(--console-border); background: var(--console-surface); color: var(--console-surface-text); font-size: 0.9rem; }
+
+c-message[log-level="error"] { background: color-mix(in srgb, var(--console-danger-fill) 16%, var(--console-surface)); }
+
+c-message[log-level="warn"] { background: color-mix(in srgb, var(--console-warning-fill) 20%, var(--console-surface)); }
+
+c-text, c-code { box-sizing: border-box; display: block; width: 100%; max-width: 100%; padding: 2px 4px; overflow-wrap: anywhere; white-space: pre-wrap; font: 0.9rem / 1.45 Verdana, Geneva, Tahoma, sans-serif; }
+
+c-code { position: relative; padding-right: 42px; overflow-x: auto; color: var(--console-surface-text); font-family: "Courier New", Courier, monospace; white-space: pre-wrap; cursor: pointer; }
+
+c-code::before { content: ">>"; padding-right: 5px; font-style: italic; }
+
+c-code::after { content: "use"; position: absolute; top: 1px; right: 1px; padding: 1px 6px; border-radius: 3px; background: var(--console-active); color: var(--console-active-text); font: .62rem/1.4 var(--app-font-family, sans-serif); }
+
+c-stack { box-sizing: border-box; display: flex; -webkit-box-flex: 1; flex: 1 0 100%; -webkit-box-pack: justify; justify-content: space-between; gap: 8px; min-width: 0px; margin-top: 3px; padding: 3px 4px 0px; color: var(--console-muted); opacity: 0.8; font-size: 0.7rem; }
+
+c-date, c-trace { min-width: 0px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+c-trace { direction: rtl; text-align: right; }
+
+c-object { color: var(--console-link); text-decoration: underline; }
+
+c-line { display: block; }
+
+c-key { margin-right: 5px; color: var(--console-accent); font-size: 0.9rem; }
+
+c-text.__c-boolean, c-text.__c-number, c-text.__c-symbol { color: var(--console-accent); }
+
+c-text.__c-function { color: var(--console-function); font-family: "Courier New", Courier, monospace; }
+
+c-text.__c-object, c-text.__c-undefined { color: var(--console-success); }
+
+c-text.__c-string { color: var(--console-success); }
+
+c-text.__c-string:not(.no-quotes)::before { content: "\""; margin-right: 2px; }
+
+c-text.__c-string:not(.no-quotes)::after { content: "\""; margin-left: 2px; }
+
+c-group { display: none; margin-left: 14px; }
+
+c-type[type="body-toggler"] { cursor: pointer; user-select: none; }
+
+c-type[type="body-toggler"].__show-data + c-group { display: block; }
+
+c-type[type="body-toggler"]::before { display: inline-block; content: "▸"; margin-right: 3px; }
+
+c-type[type="body-toggler"]::after { content: " {…}"; }
+
+c-type[type="body-toggler"].__show-data::before { content: "▾"; }
+
+c-type[type="body-toggler"].__show-data::after { display: none; }
+
+c-table { display: table; width: 100%; border-collapse: collapse; color: var(--console-surface-text); }
+
+c-table c-row { display: table-row; border-bottom: 1px solid var(--console-border); }
+
+c-table c-cell { display: table-cell; padding: 5px; }
+
+c-toggler { position: fixed; top: 0px; left: 0px; width: 30px; height: 30px; border-radius: 50%; z-index: 99999; opacity: 0.5; background-color: rgb(255, 255, 255); background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAQAAABKfvVzAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAE9JREFUOMtjYBh0gBHO+k+cSkYilcPVMpHqpIHRwIgUFERp+I8SekQ5CY8WXH7AqYWJyGglqIERV3QykaYcV7DiSSwsODw8yJIGdTPQIAQAg9gKJl7UINwAAAAASUVORK5CYII="); background-position: center center; background-repeat: no-repeat; background-size: 24px auto; box-shadow: rgba(0, 0, 0, 0.4) -2px 2px 8px; touch-action: none; }
+
+c-toggler:active { opacity: 0.8; }
+
+[hidden] { display: none !important; }
+
+@supports not (height: 100dvh) {
+  c-console { height: var(--console-viewport-height, 100vh); }
+}
+------MultipartBoundary--uUhErqDam6vjcKzIagSQU9FOujtY17c5U5QVYSVNOO------
